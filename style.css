@@ -21,6 +21,31 @@ body {
     margin-right: 100px;
 }
 
+.header-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
 hr {
     border: none;
     height: 1px;
