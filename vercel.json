@@ -1,10 +1,12 @@
 {
-    "routes": [
-      { "src": "/", "dest": "/index.html" },
-      { "src": "/src/magazine.html", "dest": "/src/magazine.html" },
-      { "src": "/src/podcasts.html", "dest": "/src/podcasts.html" },
-      { "src": "/src/authors.html", "dest": "/src/authors.html" },
-      { "src": "/src/author.post.html", "dest": "/src/author.post.html" },
-      { "src": "/src/magazine.post.html", "dest": "/src/magazine.post.html" }
-    ]
+  "rewrites": [
+      { "source": "/", "destination": "/src/index.html" },
+      { "source": "/authors", "destination": "/src/authors.html" },
+      { "source": "/magazine", "destination": "/src/magazine.html" },
+      { "source": "/podcasts", "destination": "/src/podcasts.html" },
+      { "source": "/author", "destination": "/src/author.post.html" },
+      { "source": "/magazine", "destination": "/src/magazine.post.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
   }
