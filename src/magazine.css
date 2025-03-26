@@ -56,7 +56,7 @@ body {
 }
 
 .main-title {
-    font-size: 320px;
+    font-size: 267px;
     width: max-content;
     font-weight: bold;
     margin-bottom: 20px;
@@ -111,6 +111,8 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin: 10px 0;
+    text-decoration: none;
+    color: black;
 }
 
 .card p {

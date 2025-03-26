@@ -15,6 +15,15 @@ body {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 110px;
 }
 
 .header-content{
@@ -54,8 +63,8 @@ hr {
 }
 
 .main-title {
-    font-size: 304px;
-    width: max-content;
+    margin-top: 0px;
+    font-size: 200px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;

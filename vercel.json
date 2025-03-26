@@ -1,13 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/src/index.html" },
-    { "source": "/authors", "destination": "/src/authors.html" },
-    { "source": "/magazine", "destination": "/src/magazine.html" },
-    { "source": "/podcasts", "destination": "/src/podcasts.html" },
-    { "source": "/author", "destination": "/src/author.post.html" },
-    { "source": "/magazine-post", "destination": "/src/magazine.post.html" },
-    { "source": "/src/(.*)", "destination": "/src/$1" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites":[
+    {"source":"/(.*)","destination":"/"}
+  ]
 }
